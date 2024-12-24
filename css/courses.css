@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+}
+
+.sidebar .course-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.sidebar .course-item:hover {
+    background-color: #e9ecef;
+}
+
+.content-area {
+    padding: 20px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.header {
+    color: white;
+    padding: 10px 20px;
+}
+
+.header .search-bar {
+    width: 100%;
+    max-width: 400px;
+}
+
+.header .profile {
+    font-weight: bold;
+    cursor: pointer;
+}
