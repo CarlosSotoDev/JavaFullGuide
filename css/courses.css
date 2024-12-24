@@ -5,17 +5,24 @@ body {
 .sidebar {
     height: 100vh;
     overflow-y: auto;
-    background-color: #f8f9fa;
+    background-color: #198754; /* Bootstrap success color */
 }
 
 .sidebar .course-item {
     padding: 10px 20px;
     border-bottom: 1px solid #ddd;
     cursor: pointer;
+    color: white; /* Forzar color de texto blanco */
 }
 
 .sidebar .course-item:hover {
     background-color: #e9ecef;
+    color: black; /* Cambiar color de texto al pasar el cursor */
+}
+
+.sidebar .course-item.active {
+    background-color: #0d6efd; /* Bootstrap primary color */
+    color: white; /* Forzar color blanco */
 }
 
 .content-area {
